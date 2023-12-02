@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANDI CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project of :  "Ahmad Commission Shop"</h1>
+        <form>
+            <div class="form-group">
+                <label for="SellerName">Seller Name:</label>
+                <input type="text" id="SellerName" placeholder="Enter Seller Name">
+            </div>
+            <div class="form-group">
+                <label for="ItemName">Item Name:</label>
+                <input type="text" id="ItemName" placeholder="Enter Item Name">
+            </div>
+            <div class="form-group">
+                <label for="Weigh">Weight:</label>
+                <input type="number" id="Weigh" placeholder="Enter Weight in mans">
+            </div>
+            <div class="form-group">
+                <label for="Extra_Kat">Extra Kat:</label>
+                <input type="number" id="Extra_Kat" placeholder="Enter Extra Kat (if any)">
+            </div>
+            <div class="form-group">
+                <label for="Pric">Price per man (Rs):</label>
+                <input type="number" id="Pric" placeholder="Enter Price per man">
+            </div>
+            <div class="form-group">
+                <label for="BuyerName">Buyer Name:</label>
+                <input type="text" id="BuyerName" placeholder="Enter Buyer Name">
+            </div>
+            <button type="button" id="Submit">Submit</button>
+            <button type="button" id="GetBill">Get Bill</button>
+            <button type="button" id="GetBJ">Get BJ</button>
+        </form>
+    </div>
+    <div style='page-break-after: always;'></div>
+    <div id="resultsContainer"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
