@@ -40,7 +40,7 @@ input {
 }
 
 button {
-    width: 15%;
+    width: 80px;
     margin: 10px auto;
     padding: 10px;
     background-color: #4caf50;
